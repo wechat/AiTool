@@ -1,0 +1,25 @@
+{
+  "name": "aitoptools-web",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "PORT=5011 nuxt dev",
+    "build": "PORT=5012 nuxt build",
+    "generate": "PORT=5012 nuxt generate",
+    "preview": "PORT=5012 nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "@arco-design/web-vue": "^2.54.6",
+    "arco-design-nuxt-module": "^0.0.18",
+    "defu": "^6.1.4",
+    "nuxt": "^3.10.3",
+    "qrious": "^4.0.2",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@nuxtjs/i18n": "^8.1.1",
+    "sass": "^1.71.1"
+  }
+}

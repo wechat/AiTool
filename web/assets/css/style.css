@@ -1,0 +1,77 @@
+:root {
+  font-family: Inter, Inter-Regular, Helvetica Neue, Helvetica, PingFang SC, PingFangSC,
+    -apple-system, Arial, sans-serif, Microsoft Yahei, Microsoft JhengHei,
+    "Apple Color Emoji", "Segoe UI Emoji", Segoe UI Symbol;
+  line-height: 1.4;
+  font-weight: 400;
+  color: #141426;
+  background-color: #ffffff;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-size: 15px;
+}
+
+html {
+  height: 100%;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#__nuxt {
+  min-width: 1380px;
+  margin: 0 auto;
+  background-color: #f6f6f6;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+input,
+button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+input:-internal-autofill-previewed,
+input:-internal-autofill-selected {
+  transition: background-color 50000s ease-in-out 0s !important;
+}
+
+input::-webkit-input-placeholder {
+  color: #a8a6a6;
+  font-size: 14px;
+}
+
+textarea::-webkit-input-placeholder {
+  color: #a8a6a6;
+  font-size: 15px;
+}
+
+img {
+  display: block;
+}
+
+a {
+  color: #504ded;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #504ded;
+}
+
+/* prefers-color-scheme: light */
+@media (prefers-color-scheme: dark) {}
