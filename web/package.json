@@ -2,6 +2,9 @@
   "name": "aitoptools-web",
   "private": true,
   "type": "module",
+  "description": "AI tool navigation",
+  "author": "wechats@163.com",
+  "license": "MIT",
   "scripts": {
     "dev": "PORT=5011 nuxt dev",
     "build": "PORT=5012 nuxt build",

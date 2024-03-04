@@ -5,7 +5,7 @@ use std::sync::Mutex;
 // 定义一个全局的Redis连接
 static REDIS_CONN: Lazy<Mutex<redis::Connection>> = Lazy::new(|| {
     // 数据库连接字符串
-    let redis_connection_str = dotenv::var("REDIS_HOST").expect("REDIS_HOST must be set");
+    let redis_connection_str = dotenv::var("REIDS_URL").expect("REIDS_URL must be set");
     let client = redis::Client::open(redis_connection_str).expect("Redis client creation failed");
     let conn = client.get_connection().expect("Failed to connect to Redis");
     Mutex::new(conn)
